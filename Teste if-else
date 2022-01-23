@@ -12,8 +12,7 @@ int main(){
         }
         else{
             printf("O numero é igual ou menor que 9\n");
-        }
-        
+        }   
     }
     return 0;
 }
