@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    int numero;
+    printf("Digite um numero de 0 a 9: ");
+    scanf("%d", &numero);
+    if(numero>9){
+         printf("O numero é maior que 9\n!");
+    }
+    else{
+        if (numero==9){
+            printf("O numero é igual ou menor que 9\n!");
+        }
+        else{
+            printf("O numero é igual ou menor que 9\n");
+        }
+        
+    }
+    return 0;
+}
+//exemplo de if e else 
+// pag 24 ebook 3 unidad
